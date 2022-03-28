@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap" rel="stylesheet" />
+    <link href="./slider.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section class="projects">
+        <div class="container">
+            <div class="container_part2">
+                <div class="navigation_part2">
+                    <div class="navi" onclick="currentSlide(1)">Rostov-on-Don, Admiral</div>
+                    <div class="navi" onclick="currentSlide(2)">Sochi Thieves</div>
+                    <div class="navi" onclick="currentSlide(3)">Rostov-on-Don Patriotic</div>   
+                </div>
+                
+            </div>
+            <div class="slider_wrapper">
+                <div class="project_info">
+                    <div class="btn__text">
+                        <div class="title_p2">COMPLETED <br>PROJECTS</div>
+                        <p class="btn__text1">
+                            Only a small part of the work performed by our company is presented
+                            <br>on the site. For 14 years on in the construction
+                            <br>market we have made happy more than 1000 families
+                        </p>
+                    </div>
+                    <div class="slider">
+                    <div class="slider_image_wrapper">
+                        <img class="slider_image dream" src="./Image/hero2.jpg">
+                    </div>
+                    <div class="slider_image_wrapper">
+                        <img class="slider_image dream" src="./Image/image 2.png">
+                    </div>
+                    <div class="slider_image_wrapper">
+                        <img class="slider_image dream" src="./Image/image 3.jpg">
+                    </div>
+                    </div>
+                    <div class="btn_text2">
+                        <div class="subblock ">
+                            <div class="title_h1 ">CITY:</div>
+                            <span class="o-layout">Rostov-on-Don<br>LCD admiral</span>
+                               
+                        </div>
+                        <div class="subblock">
+                            <div class="title_h1 ">APARTAMENT AREA:</div>
+                            <span class="o-layout">81 m2</span>
+                        </div>
+                        <div class="subblock ">
+                            <div class="title_h1 ">REPAIR TIME:</div>
+                            <span class="o-layout">3.5 months</span>
+                        </div>
+                        <div class="subblock">
+                            <div class="title_h1 ">REPAIR COST:</div>
+                            <span class="o-layout">Upon request</span>
+                        </div>
+                    </div>
+                    <div class="btn_text2 ">
+                        <div class="subblock">
+                            <div class="title_h1">CITY:</div>
+                            <span class="o-layout ">Sochi<br> Thieves</span>
+                                                 
+                        </div>
+                        <div class="subblock ">
+                            <div class="title_h1">APARTAMENT AREA:</div>
+                            <span class="o-layout">105 m2</span>
+                        </div>
+                        <div class="subblock">
+                            <div class="title_h1">REPAIR TIME:</div>
+                            <span class="o-layout">4 months</span>
+                        </div>
+                        <div class="subblock">
+                            <div class="title_h1">REPAIR COST:</div>
+                            <span class="o-layout">Upon request</span>
+                        </div>
+                    </div>
+                    <div class="btn_text2">
+                        <div class="subblock">
+                            <div class="title_h1">CITY:</div>
+                            <span class="o-layout">Rostov-on-Don <br>Patriotic </span>
+                            
+                        </div>
+                        <div class="subblock">
+                            <div class="title_h1">APARTAMENT AREA:</div>
+                            <span class="o-layout">93 m2</span>
+                        </div>
+                        <div class="subblock">
+                            <div class="title_h1">REPAIR TIME:</div>
+                            <span class="o-layout repairTime">3 months</span>
+                        </div>
+                        <div class="subblock">
+                            <div class="title_h1">REPAIR COST:</div>
+                            <span class="o-layout">Upon request</span>
+                        </div>
+                    </div>
+                    <div class="slider_interpreter">
+                        <button class="slider_h1 arrow-left "onclick="previousSlide()" href="#"><img src="./Image/arrow-left.svg"></button>
+                        <div class="slider_dot " onclick="currentSlide(1)"></div>
+                        <div class="slider_dot " onclick="currentSlide(2)"></div>
+                        <div class="slider_dot " onclick="currentSlide(3)"></div>
+                        <button class="slider_h2 arrow-right active-next"onclick="nextSlide()" href="#"><img
+                                src="./Image/arrow-right.svg"></button>
+                    </div>
+                    <script src="./slider.js"></script>
+</body>
+
+</html>
